@@ -34,8 +34,8 @@ setTasks(tasks.map(task => (task.id === id ? {...task, completed: !task.complete
 
 function completedItem({item}) {
 return (
-  <>
-<View key={item.id}></View>
+
+<View key={item.id}>
 <CheckBox 
 
 center
@@ -44,7 +44,7 @@ checked={item.completed}
 onPress={() => taskCompleted(item.id)}
 textStyle={item.completed ? styles.itemCompleted : {}}
 />
-</>
+</View>
 )
 
 }
