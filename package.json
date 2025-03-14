@@ -2,6 +2,7 @@
   "name": "todo-app",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://Justinbecec1.github.io/react-todo-app/",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
